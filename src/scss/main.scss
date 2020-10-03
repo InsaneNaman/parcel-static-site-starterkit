@@ -1,0 +1,30 @@
+//import scss file
+@import "./gradient-test.scss";
+
+//You can write css or scss
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 5vw;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    font-size: 10vw;
+  }
+}

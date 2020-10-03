@@ -1,0 +1,4 @@
+[production]
+> 1%,
+last 4 versions
+ie >= 10
