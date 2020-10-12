@@ -10,11 +10,13 @@
 
 3- SCSS Support
 
-4- Hot Reloading
+4- ES6+ Support
 
-5- Runs on a local server
+5- Hot Reloading
 
-6- Auto prefixing - Support IE10 and last 4 versions of all browsers
+6- Runs on a local server
+
+7- Auto prefixing - Support IE10 and last 4 versions of all browsers
 
 ### How to use 🧐
 
