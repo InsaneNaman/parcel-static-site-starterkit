@@ -13,8 +13,8 @@
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "parcel-bundler": "^1.12.4",
-    "postcss-modules": "^3.2.2",
+    "postcss-modules": "^4.3.1",
     "rimraf": "^3.0.2",
-    "sass": "^1.26.11"
+    "sass": "^1.54.1"
   }
 }
