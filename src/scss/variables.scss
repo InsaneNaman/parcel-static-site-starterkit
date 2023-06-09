@@ -1,0 +1,99 @@
+// Global color create
+:root {
+    --white: #fff;
+    --light: #d8dbe0;
+    --dark: #28292c;
+    --info: #0dcaf0;
+    
+    --primary: #f73e4c;
+    --secondary:#28B95E ;
+    --tertiary:#F0783C ;
+  
+    --primary-title: #38475a;
+    --secondary-title: #444A51;
+    --tertiary-title:#494E5C;
+
+    --primary-paragraph: #535b61;
+    --secondary-paragraph: #475467;
+    --tertiary-paragraph: #475467;
+  
+  	--primary-btn:#f73e4c;
+	--secondary-btn:#F5761D;
+	--tertiary-btn:#304839;
+
+    --section-bg-one:#F9F9F9;
+    --section-bg-two:#202430;
+    --section-bg-three:#B2DFD352;
+  
+    --primary-border: #D0D5DD;;
+    --secondary-border:#EDEDED;
+    --tertiary-border: #D0D5DD;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--inter);
+}
+
+/*-- Margin Padding --*/
+    @for $i from 6 through 200 {
+
+        /*-- Margin To-Bottom-Left-Right --*/
+        .mt-#{1 * $i}{
+            margin-top: 1px * $i;
+        }
+        .mb-#{1 * $i}{
+            margin-bottom: 1px * $i;
+        }
+        .ml-#{1 *$i}{
+        margin-left: 1px * $i;
+        }
+        .mr-#{1 * $i}{
+            margin-right: 1px * $i;
+        }
+
+        /*-- Padding To-Bottom-Left-Right --*/
+        .pt-#{1 * $i}{
+            padding-top: 1px * $i;
+        }
+        .pb-#{1 * $i}{
+            padding-bottom: 1px * $i;
+        }
+        .pl-#{1 * $i}{
+            padding-left: 1px * $i;
+        }
+        .pr-#{1 * $i}{
+            padding-right: 1px * $i;
+        }
+    }
+
+/*-- Margin Padding  0 --*/
+    @for $i from 0 through 0 {
+
+        /*-- Margin To-Bottom-Left-Right --*/
+        .mt-#{0 * $i}{
+            margin-top: 0px * $i !important;
+        }
+        .mb-#{0 * $i}{
+            margin-bottom: 0px * $i !important;
+        }
+        .ml-#{0 *$i}{
+            margin-left: 0px * $i !important;
+        }
+        .mr-#{0 * $i}{
+            margin-right: 0px * $i !important;
+        }
+
+        /*-- Padding To-Bottom-Left-Right --*/
+        .pt-#{0 * $i}{
+            padding-top: 0px * $i !important;
+        }
+        .pb-#{0 * $i}{
+            padding-bottom: 0px * $i !important;
+        }
+        .pl-#{0 * $i}{
+            padding-left: 0px * $i !important;
+        }
+        .pr-#{0 * $i}{
+            padding-right: 0px * $i !important;
+        }
+    }
+
